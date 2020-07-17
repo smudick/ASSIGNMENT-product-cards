@@ -1,5 +1,5 @@
 body {
-    background-color: silver;
+    background-color: #f5f5f7;
 }
 
 
@@ -7,12 +7,12 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    border: powderblue solid 6px;
+    /* border: powderblue solid 6px; */
     margin: 50px 0px;
 }
 
 header {
-    border: lightblue solid 1px;
+    border-bottom: lightblue solid 1px;
     display: flex;
     justify-content: center;
 }
@@ -23,6 +23,7 @@ header {
     width: 333px;
     border:  powderblue solid 1px;
     margin: 10px 10px;
+    border-radius: 10px;
 }
 
 .image1 {
