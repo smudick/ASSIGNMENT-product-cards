@@ -1,3 +1,19 @@
 body {
     background-color: lightslategray;
 }
+
+.product-container {
+    display: flex;
+}
+
+.product-1 {
+    border: 1px solid lightblue;
+    box-shadow: navy;
+    width: 333px;
+    align-content: center;
+
+}
+
+img {
+    width: 250px;
+}
