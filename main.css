@@ -1,18 +1,18 @@
 body {
   background-color: #CAF0F8;
   color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .product-container {
   display: flex;
   flex-flow: row wrap;
   /* justify-content: space-evenly; */
-  /* border: powderblue solid 6px; */
   margin: 50px 0px;
 }
 
 header {
-  border-bottom: #bdbdbd solid 1px;
+  border-bottom: #ffffff solid 1px;
   display: flex;
   justify-content: center;
 }
@@ -21,10 +21,10 @@ header {
   flex-flow: column nowrap;
   box-shadow: 10px 5px 5px gray;
   width: 28%;
-  border: #bdbdbd solid 1px;
+  border: #ffffff solid 1px;
   margin: 10px 10px;
   border-radius: 10px;
-  background-color: #0096C7;
+  background-color: #00B4D8;
 }
 
 .image1 {
@@ -66,11 +66,3 @@ h3 {
   margin-left: 10px;
 }
 
-/* .dark-primary-color    { background: #D32F2F; }
-.default-primary-color { background: #F44336; }
-.light-primary-color   { background: #FFCDD2; }
-.text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #03A9F4; }
-.primary-text-color    { color: #212121; }
-.secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; } */
